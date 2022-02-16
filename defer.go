@@ -12,8 +12,8 @@ func main() {
 	 frds[3]= "gokul"
 	 frds[4] = "sakthi"
 	fmt.Println(frds)
-	defer foo()
-	bar()
+	 foo()
+	defer bar()
 
 }
 func foo() {
